@@ -1,0 +1,56 @@
+############
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+venv/
+env/
+.venv/
+
+migrations/
+
+# Django
+#########
+# SQLite database files
+*.sqlite3
+# For example, if your database file is named `db.sqlite3`
+db.sqlite3
+
+# Security/sensitive files (do NOT commit to git)
+local_settings.py
+.env
+# If you have custom local settings for the dev environment
+
+# Media files
+media/
+# User-uploaded files that should not be in the repository
+
+# Static files for deployment
+#static/
+# Collectstatic files generated for production
+
+# IDE-specific files (optional)
+############################
+# For Visual Studio Code
+.vscode/
+
+# For PyCharm
+.idea/
+
+# Operating system files
+########################
+# Mac
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Example deployment files (optional)
+####################################
+*.tar.gz
+*.zip
+
+__pycache__/
