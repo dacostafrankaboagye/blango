@@ -14,9 +14,9 @@ migrations/
 # Django
 #########
 # SQLite database files
-*.sqlite3
+#*.sqlite3
 # For example, if your database file is named `db.sqlite3`
-db.sqlite3
+#db.sqlite3
 
 # Security/sensitive files (do NOT commit to git)
 local_settings.py
